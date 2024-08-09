@@ -56,7 +56,7 @@
   @color declaration
   */
   --it-common-white: #ffffff;
-  --it-common-black: #0E2A46;
+  --it-common-black: #000000; /** Color de botones principales **/
   --it-common-black-2: #4D5756;
   --it-common-yellow: #F2A227;
   --it-common-yellow-2: #FC9F0B;
@@ -65,7 +65,7 @@
   --it-grey-2: #F3F5F5;
   --it-grey-3: #F9F6EF;
   --it-text-body: #333931;
-  --it-theme-1: #2EBAA1;
+  --it-theme-1: #FBC124; /** Color de linea del cuadro despegable**/
   --it-theme-2: #116E63;
   --it-theme-3: #2356F6;
   --it-theme-4: #22A3D1;
@@ -73,6 +73,13 @@
   --it-theme-6: #FD6D4B;
 }
 
+.it-submenu-ca {
+  width: 350px !important;
+}
+
+#facufont {
+  color: #F2A227;
+}
 @media (min-width: 1400px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 1350px;
@@ -2674,7 +2681,7 @@ input[type=color] {
   content: "\f107";
   font-family: "Font Awesome 6 Pro";
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   margin-left: 5px;
   font-weight: 400;
   transition: 0.3s;
@@ -2762,7 +2769,7 @@ input[type=color] {
   font-weight: 700;
 }
 .it-header-2-button {
-  margin-left: 40px;
+  margin-left: 30px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .it-header-2-button {
@@ -11574,6 +11581,7 @@ input[type=color] {
 
 .it-menu-mobile .it-submenu {
   display: none;
+  
 }
 .it-menu-mobile .it-menu-content {
   margin-bottom: 70px;
